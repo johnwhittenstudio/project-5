@@ -20,4 +20,9 @@ export default class Earthling {
     return ageOnMars;
   }
 
+  ageOnJupiter() {
+    let ageOnJupiter = Math.round(this.age / 11.86);
+    return ageOnJupiter;
+  }
+
 }
