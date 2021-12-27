@@ -4,4 +4,9 @@ export default class Earthling {
     this.lifespan = lifespan;
     this.lifeLeft = lifespan - age;
   }
+
+  ageOnMercury() {
+    let ageOnMercury = Math.round(this.age / .24);
+    return ageOnMercury;
+  }
 }
