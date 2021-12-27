@@ -17,4 +17,8 @@ describe('Earthling', () => {
     expect(earthling.ageOnMercury()).toEqual(154);
   });
 
+  test("should calculate the earthling age into age on Mercury ", () => {
+    expect(earthling.ageOnVenus()).toEqual(60);
+  });
+
 });
