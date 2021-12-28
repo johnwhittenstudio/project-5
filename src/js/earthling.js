@@ -50,4 +50,9 @@ export default class Earthling {
     return lifeLeftOnMercury;
   }
 
+  lifeLeftOnVenus() {
+    let lifeLeftOnVenus = Math.round(this.lifespan / .62) - Math.round(this.age / .62);
+    return lifeLeftOnVenus;
+  }
+
 }
