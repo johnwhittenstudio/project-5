@@ -41,4 +41,12 @@ describe('Earthling', () => {
     expect(earthling.lifespanOnMars()).toEqual(43);
   });
 
+  test("should calculate the earthling lifespan into Jupiter lifespan", () => {
+    expect(earthling.lifespanOnJupiter()).toEqual(7);
+  });
+
+  test("should calculate the earthling life left into Mercury life left", () => {
+    expect(earthling.lifeLeftOnMercury()).toEqual(179);
+  });
+
 });
