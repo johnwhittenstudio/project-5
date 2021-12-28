@@ -45,4 +45,9 @@ export default class Earthling {
     return lifespanOnJupiter;
   }
 
+  lifeLeftOnMercury() {
+    let lifeLeftOnMercury = Math.round(this.lifespan / .24) - Math.round(this.age / .24);
+    return lifeLeftOnMercury;
+  }
+
 }
