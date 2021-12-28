@@ -35,5 +35,10 @@ export default class Earthling {
     return lifespanOnVenus;
   }
 
+  lifespanOnMars() {
+    let lifespanOnMars = Math.round(this.lifespan / 1.88);
+    return lifespanOnMars;
+  }
+
 
 }
