@@ -29,4 +29,8 @@ describe('Earthling', () => {
     expect(earthling.ageOnJupiter()).toEqual(3);
   });
 
+  test("should calculate the earthling lifespan into Mercury lifespan", () => {
+    expect(earthling.lifespanOnMercury()).toEqual(333);
+  });
+
 });
