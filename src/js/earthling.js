@@ -25,4 +25,15 @@ export default class Earthling {
     return ageOnJupiter;
   }
 
+  lifespanOnMercury() {
+    let lifespanOnMercury = Math.round(this.lifespan / .24);
+    return lifespanOnMercury;
+  }
+
+  lifespanOnVenus() {
+    let lifespanOnVenus = Math.round(this.lifespan / .62);
+    return lifespanOnVenus;
+  }
+
+
 }
