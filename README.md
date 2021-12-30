@@ -83,13 +83,13 @@ The business logic of your application should take a person's age in years and c
 
 - _Make sure you have installed [Node js](https://nodejs.org/en/)_
 
-- _Run command npm install to install all dependencies._
+- _Run command ``` $ npm install``` to install all dependencies._
 
-- _Run the command npm run build_
+- _Run the command ```$ npm run build```_
 
-- _Run the command npm run test to check the test pass._
+- _Run the command ```$ npm run test``` to check the test pass._
 
-- _Run the command npm run start to launch on a browser._
+- _Run the command ```$ npm run start``` to launch on a browser._
 
 
 ## Known Bugs
