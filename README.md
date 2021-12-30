@@ -77,9 +77,9 @@ The business logic of your application should take a person's age in years and c
 
 - _Navigate to the parent directory of your preference._
 
-- _Clone this project using $ git clone https://github.com/johnwhittenstudio/project-5_
+- _Clone this project using ```$ git clone https://github.com/johnwhittenstudio/project-5```_
 
-- _Navigate to the top level of the directory with the command $ cd project-5_
+- _Navigate to the top level of the directory with the command ```$ cd project-5```_
 
 - _Make sure you have installed [Node js](https://nodejs.org/en/)_
 
