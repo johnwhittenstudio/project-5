@@ -71,29 +71,25 @@ The business logic of your application should take a person's age in years and c
 - _Assuming that the average lifespan of a mayfly is 5 minutes, determine how many mayfly lifespans a human user has lived and then compare it the current age (in Earth years) of our sun._
 - _Make your application look nice and give it a solar theme!_
 
-## Directions
+## Project Setup/Installation Instructions:
 
 - _Open the terminal on your local computer._
 
 - _Navigate to the parent directory of your preference._
 
-- _Clone this project using $ git clone https://github.com/johnwhittenstudio/project-5-galactic-age-calculator_
+- _Clone this project using $ git clone https://github.com/johnwhittenstudio/project-5_
 
-#### Open Project using Terminal
+- _Navigate to the top level of the directory with the command $ cd project-5_
 
-- _Navigate to the top level of the repository with the command $ cd project-5_
+- _Make sure you have installed [Node js](https://nodejs.org/en/)_
 
-- _Open index.html in the browser with the command $ open index.html_
+- _Run command npm install to install all dependencies._
 
-<!-- #### Open Project using Local Machine UI
+- _Run the command npm run build_
 
-- _Open the folder using your local machine's user interface by double clicking on the folder project-5_
+- _Run the command npm run test to check the test pass._
 
-- _Open the index.html in your browser by double clicking on index.html_
-
-#### Alternatively
-
-- \_Open a live version of the project in your browser by clicking on https://johnwhittenstudio.github.io/project-5/ -->
+- _Run the command npm run start to launch on a browser._
 
 
 ## Known Bugs
