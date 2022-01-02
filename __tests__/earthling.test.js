@@ -105,5 +105,7 @@ describe('Earthling', () => {
     expect(earthlingOld.lifeLeftOnMars()).toEqual(-21);
   });
 
- 
+  test("should calculate the earthling life left into Jupiter life left", () => {
+    expect(earthlingOld.lifeLeftOnJupiter()).toEqual(-3);
+  });
 });
