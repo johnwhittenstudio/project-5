@@ -93,5 +93,10 @@ describe('Earthling', () => {
     expect(earthlingOld.ageOnJupiter()).toEqual(10);
   });
 
+  test("should calculate the earthling life left into Mercury life left", () => {
+    expect(earthlingOld.lifeLeftOnMercury()).toEqual(-167);
+  });
+
+
   
 });
