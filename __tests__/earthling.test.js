@@ -89,5 +89,9 @@ describe('Earthling', () => {
     expect(earthlingOld.ageOnMars()).toEqual(64);
   });
 
- 
+  test("should calculate the earthling age into age on Jupiter ", () => {
+    expect(earthlingOld.ageOnJupiter()).toEqual(10);
+  });
+
+  
 });
