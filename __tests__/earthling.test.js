@@ -60,5 +60,26 @@ describe('Earthling', () => {
   test("should calculate the earthling life left into Jupiter life left", () => {
     expect(earthling.lifeLeftOnJupiter()).toEqual(4);
   });
+});
+
+//--------------- Calculate Lifespan Surpassed -------------------//
+
+describe('Earthling', () => {
+  let earthlingOld;
+
+  beforeEach(() => {
+    earthlingOld = new Earthling(120, 80);
+  });
+
+  test("should correctly create a earthling object with the person's age, lifespan, and years remaining ", () => {
+    expect(earthlingOld.age).toEqual(120);
+    expect(earthlingOld.lifespan).toEqual(80);
+    expect(earthlingOld.lifeLeft).toEqual(-40);
+  });
+
+  test("should calculate the earthling age into age on Mercury ", () => {
+    expect(earthlingOld.ageOnMercury()).toEqual(500);
+  });
+
 
 });
