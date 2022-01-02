@@ -85,5 +85,9 @@ describe('Earthling', () => {
     expect(earthlingOld.ageOnVenus()).toEqual(194);
   });
 
+  test("should calculate the earthling age into age on Mars ", () => {
+    expect(earthlingOld.ageOnMars()).toEqual(64);
+  });
 
+ 
 });
