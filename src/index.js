@@ -15,7 +15,7 @@ $(document).ready(function() {
   });
 });
 
-//--Leaving the following to figure out how to get the galactic age to display while hide earthling, very close, when solved delete function above--//
+//--Leaving the following to figure out how to get the galactic age to display while hide earthling, very close, when solved delete the function above--//
 
 // $(document).ready(function() {
 //   $(".btn-begin-journey").click(function(event) {
