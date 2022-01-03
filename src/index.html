@@ -1,9 +1,89 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 <head>
   <title>Super Galactic Age Calculator</title>
+  <link rel="icon" type="image/ico" src="assets/images/vulcan-sm.ico"/>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="header1">
+      <h1><strong>Super Galactic Age Calculator</strong></h1>
+      <br>
+      <br>
+      <div id="begin-journey">
+        <button type="submit" class="btn-begin-journey">Begin Your Space Age Journey</button>
+      </div>
+    </div>
+    <div class="earthling">
+      <form id="earthling-form">
+        <h2 id="earthling-info">Enter your age and desired lifespan.</h2>
+        <h2>Your age will be galactically calculated.</h2>
+        <br>
+        <div class="form-group">
+          <h4><label for="age">Enter Your Age:</label></h4>
+          <input id="age" type="number">
+        </div>
+        <br>
+        <div class="form-group">
+          <h4><label for="lifespan">Enter Your Desired Lifespan:</label></h4>
+          <input id="lifespan" type="number">
+        </div>
+        <br>
+        <br>
+        <div id="calculate-age">
+        <button class="btn-calculate-age" type="submit">Calculate Galactic Age</button>
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="galactic-age">
+      <form id="galactic-form">
+        <h2 id="galactic-form">Greetings Earthling!</h2>
+        <h3>Below is Your Super Galactic Age</h3>
+        <br>
+        <div class="row">
+          <div class="col-md-6">
+            <img id="bodyimage" src="assets/images/mercury.png">
+            <h5>Age on Mercury: <span id="mercuryAge"></span></h5>
+            <h5>Lifespan on Mercury: <span id="mercuryLifespan"></span></h5>
+            <h5>Years left on Mercury: <span id="mercuryLifeLeft"></span></h5>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-6">
+            <img id="bodyimage" src="assets/images/venus.png">
+            <h5>Age on Venus: <span id="venusAge"></span></h5>
+            <h5>Lifespan on Venus: <span id="venusLifespan"></span></h5>
+            <h5>Years left on Venus: <span id="venusLifeLeft"></span></h5>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-6">
+            <img id="bodyimage" src="assets/images/mars.png">
+            <h5>Age on Mars: <span id="marsAge"></span></h5>
+            <h5>Lifespan on Mars: <span id="marsLifespan"></span></h5>
+            <h5>Years left on Mars: <span id="marsLifeLeft"></span></h5>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-6">
+            <img id="bodyimage" src="assets/images/jupiter.png">
+            <h5>Age on Jupiter: <span id="jupiterAge"></span></h5>
+            <h5>Lifespan on Jupiter: <span id="jupiterLifespan"></span></h5>
+            <h5>Years left on Jupiter: <span id="jupiterLifeLeft"></span></strong></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="footer">
+    <p>created with <img src="assets/images/beer-sm.png"> & <img src="assets/images/vulcan-sm.png"> by John Whitten in 2021 for <a href="https://www.epicodus.com/"> <em>Epicodus</em></a></p>
+  </div>
 </body>
 </html>

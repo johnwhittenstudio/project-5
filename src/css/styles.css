@@ -1,0 +1,120 @@
+.header1 {
+  padding-top: 25%;
+  padding-bottom: 25%;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 90px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+body {
+  background-color: black;
+  background-image: url("../assets/images/hubble-deepfield.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.btn-begin-journey {
+  justify-content: center;
+  float: center;
+  height: 70px;
+  width: 400px;
+  font-size: larger;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  color: white;
+  background-color: rgb(94, 94, 94);
+  border-radius: 25px;
+  border: 3px solid white;
+}
+
+.btn-begin-journey:hover {
+  border: 3px solid darkblue;
+  color: white;
+  background-color: rgb(27, 27, 27);
+  border-radius: 25px;
+}
+
+.btn-calculate-age {
+  justify-content: center;
+  float: center;
+  height: 60px;
+  width: 300px;
+  font-size: larger;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  color: white;
+  background-color: rgb(94, 94, 94);
+  border-radius: 25px;
+  border: 3px solid white;
+}
+
+.btn-calculate-age:hover {
+  border: 3px solid darkblue;
+  color: white;
+  background-color: rgb(27, 27, 27);
+  border-radius: 25px;
+}
+
+.earthling {
+  margin-top: 10px;
+  /* margin-top: 10%; --once display galactic age/hide earthling is resolved center with this and delete above */
+  display: none;
+  padding-top: 10%;
+  text-align: center;
+  justify-content: center;
+}
+
+.galactic-age {
+  text-align: left;
+  display: none;
+  padding-top: 10px;
+  padding-left: 30%;
+  padding-left: center;
+  justify-content: center;
+}
+
+#bodyimage {
+  float: right;
+}
+
+.footer {
+  display: none;
+  position: bottom;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-style: bold;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+a {
+  color: white;
+}
+
+a:link {
+  color: red;
+}
+
+a:hover {
+  color: hotpink;
+}
