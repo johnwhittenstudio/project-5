@@ -5,36 +5,36 @@ import './css/styles.css';
 import Earthling from './js/earthling.js';
 
 
-$(document).ready(function() {
-  $(".btn-begin-journey").click(function(event) {
-    event.preventDefault();
-    $(".header1").hide();
-    $(".earthling").show();
-    $(".galactic-age").show();
-    $(".footer").show();
-  });
-});
-
-//--Leaving the following to figure out how to get the galactic age to display while hide earthling, very close, when solved delete the function above--//
-
 // $(document).ready(function() {
 //   $(".btn-begin-journey").click(function(event) {
 //     event.preventDefault();
 //     $(".header1").hide();
 //     $(".earthling").show();
-//     $(".galactic-age").hide();
-//     $(".footer").hide();
+//     $(".galactic-age").show();
+//     $(".footer").show();
 //   });
 // });
+
+//--Leaving the following to figure out how to get the galactic age to display while hide earthling, very close, when solved delete the function above--//
+
+$(document).ready(function() {
+  $(".btn-begin-journey").click(function(event) {
+    event.preventDefault();
+    $(".header1").hide();
+    $(".earthling").show();
+    $(".galactic-age").hide();
+    $(".footer").hide();
+  });
+});
 
 // $(document).ready(function() {
 //   $(".btn-calculate-age").click(function(event) {
 //     event.preventDefault();
-//     $(".header1").hide();
-//     $(".earthling").hide();
-//     $(".galactic-age").show();
-//     $(".footer").show();
-//   });
+// $(".header1").hide();
+// $(".earthling").hide();
+// $(".galactic-age").show();
+// $(".footer").show();
+// });
 // });
 
 $(document).ready(function() {
@@ -59,6 +59,11 @@ $(document).ready(function() {
     let lifeLeftOnVenus = earthling.lifeLeftOnVenus();
     let lifeLeftOnMars = earthling.lifeLeftOnMars();
     let lifeLeftOnJupiter = earthling.lifeLeftOnJupiter();
+
+    $(".header1").hide();
+    $(".earthling").hide();
+    $(".galactic-age").show();
+    $(".footer").show();
 
     $("#mercuryAge").html(ageOnMercury);
     $("#venusAge").html(ageOnVenus);
