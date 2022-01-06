@@ -4,19 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import Earthling from './js/earthling.js';
 
-
-// $(document).ready(function() {
-//   $(".btn-begin-journey").click(function(event) {
-//     event.preventDefault();
-//     $(".header1").hide();
-//     $(".earthling").show();
-//     $(".galactic-age").show();
-//     $(".footer").show();
-//   });
-// });
-
-//--Leaving the following to figure out how to get the galactic age to display while hide earthling, very close, when solved delete the function above--//
-
 $(document).ready(function() {
   $(".btn-begin-journey").click(function(event) {
     event.preventDefault();
@@ -26,16 +13,6 @@ $(document).ready(function() {
     $(".footer").hide();
   });
 });
-
-// $(document).ready(function() {
-//   $(".btn-calculate-age").click(function(event) {
-//     event.preventDefault();
-// $(".header1").hide();
-// $(".earthling").hide();
-// $(".galactic-age").show();
-// $(".footer").show();
-// });
-// });
 
 $(document).ready(function() {
   $("form#earthling-form").submit(function(event) {
