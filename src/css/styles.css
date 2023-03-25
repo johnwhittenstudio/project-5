@@ -26,11 +26,13 @@ h2 {
 
 body {
   background-color: black;
-  background-image: url("../assets/images/hubble-deepfield.jpeg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(../assets/images/hubble-deepfield.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  margin: 0;
+  padding: 0;
   color: white;
   font-family: "Orbitron", sans-serif;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
@@ -86,14 +88,37 @@ body {
   justify-content: center;
 }
 
+#galactic-form {
+  width: 85%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#galactic-form h2, h3 {
+  text-align: center;
+}
+
 .galactic-age {
   margin-top: 10%; 
-  text-align: left;
+  /* text-align: left; */
   display: none;
   padding-top: 10px;
-  padding-left: 30%;
-  padding-left: center;
+  /* padding-left: 30%;
+  padding-left: center; */
   justify-content: center;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+  border: 2px dotted blue;
+  border-radius: 5px;;
+  background-color: rgba(0, 0, 139, 0.571);
+  padding: 25px 20%;
+}
+
+.row h5 {
+  letter-spacing: .05em;
 }
 
 #bodyimage {
